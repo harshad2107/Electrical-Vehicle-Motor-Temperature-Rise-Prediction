@@ -27,16 +27,27 @@ The data has been downloaded from a dataset in Kaggle provided by Paderborn Univ
 
 ** Data Definition **
  ambient - Ambient temperature as measured by a thermal sensor located closely to the stator.
+ 
  coolant - Coolant temperature. The motor is water cooled. Measurement is taken at outflow.
+ 
  u_d - Voltage d-component
+ 
  u_q - Voltage q-component
+ 
  motor_speed - Motor speed
+ 
  torque - Torque induced by current.
+ 
  i_d - Current d-component
+ 
  i_q - Current q-component
+ 
  pm - Permanent Magnet surface temperature representing the Motor temperature. This was measured with an infrared thermography unit.
+ 
  stator_yoke - Stator yoke temperature measured with a thermal sensor.
+ 
  stator_tooth - Stator tooth temperature measured with a thermal sensor.
+ 
  stator_winding - Stator winding temperature measured with a thermal sensor.
 
-# Using different Regression Algorithmns the results can be applied to real-life situation in optimizing motor performance and giving out warnings when the motor temperature is abnormally high
+# Using different Regression Algorithms the result can be applied to real-life situation in optimizing motor performance and giving out warnings when the motor temperature is abnormally high
